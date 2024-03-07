@@ -1,1 +1,8 @@
+Vulnerabilidad de inyección SQL que permite omitir el inicio de sesión.
 
+Esta práctica de laboratorio contiene una vulnerabilidad de inyección SQL en la función de inicio de sesión.
+
+Para resolver la práctica de laboratorio, realice un ataque de inyección SQL que inicie sesión en la aplicación como  usuario "administrator".
+
+En este laboratorio nos piden que iniciemos sesion como el usuario "administrator" sin que sepamos la contraseña así que podemos usar uno de los dos metodos usados
+en el laboratorio anterior (-- -) para comentar el resto de la query y que no solicite contraseña.
