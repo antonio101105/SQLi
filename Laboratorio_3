@@ -7,3 +7,12 @@ Para resolver la práctica de laboratorio, muestre la cadena de versión de la b
 
 ---SOLUCIÓN---
 
+En las bases de datos Oracle, cada declaración SELECT debe especificar una tabla para seleccionar FROM. 
+Si su UNION SELECT ataque no consulta desde una tabla, igualmente deberá incluir la FROM palabra clave seguida de un nombre de tabla válido.
+
+Hay una tabla integrada en Oracle llamada dualque puede utilizar para este propósito.
+
+El comando para ver la versión en SQL es \\v$version//
+'+UNION+SELECT+BANNER,+NULL+FROM+v$version-- -
+
+Aquí te dejo un video solucionando dicho laboratorio: https://youtu.be/1geiZ1-8b1o
