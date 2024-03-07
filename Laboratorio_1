@@ -11,4 +11,8 @@ Lo que hay que hacer es modificar la query SQL del enlace para que nos muestre t
 Por lo que la query quedaria así:     SELECT * FROM products WHERE category = '' or 1=1-- -' AND released = 1
 
 La sentencia \\'or 1=1'//, está anulando a la sentencia anterior gracias al operador "or", y dando el poder a la siguiente afirmación, 
-que está indicando una sentencia que se va a cumplir siempre, que 1 es igual a 1, y además, la instrucción \\'-- -'// lo que hace es comentar el resto de la query
+que está indicando una sentencia que se va a cumplir siempre, que 1 es igual a 1, y además, la instrucción \\'-- -'// lo que hace es comentar el resto de la query.
+
+El enlace de la página deberia quedar así: https://0aae00330471b75f84d71ae000b2004f.web-security-academy.net/filter?category='or 1=1-- -
+
+Aquí te dejo un video solucionando dicho laboratorio: https://youtu.be/U8LYM8MOUC4
