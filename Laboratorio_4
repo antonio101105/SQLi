@@ -1,1 +1,7 @@
 Ataque de inyección SQL , consulta del tipo y versión de la base de datos en MySQL y Microsoft
+
+Esta práctica de laboratorio contiene una vulnerabilidad de inyección SQL en el filtro de categoría de producto. 
+Puede utilizar un ataque UNION para recuperar los resultados de una consulta inyectada.
+
+Para resolver la práctica de laboratorio, muestre la cadena de versión de la base de datos.
+
