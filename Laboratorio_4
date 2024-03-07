@@ -10,5 +10,6 @@ En esta ocasión es la misma que en la del laboratorio 3 pero usa otro tipo de b
 por lo que la query sería la misma excepto el comando que seria @@version
 
 '+UNION+SELECT+@@version,+NULL#
-Habras visto que no he puesto \\-- -// si no que he puesto \\#// que sirve para lo mismo, pero lo que pasa es que no ha funcionado y la verdad que no funciona no se porque.
+Habras visto que no he puesto \\-- -// si no que he puesto \\#// que sirve para lo mismo, pero lo que pasa es que no ha funcionado y la verdad 
+que no funciona porque esa version de mySQL no es compatible.
 Aquí te dejo un video solucionando el laboratorio: https://youtu.be/nfLQAr0Ah38
