@@ -7,6 +7,7 @@ Cuando el usuario selecciona una categoría, la aplicación realiza una consulta
 
 Para resolver la práctica de laboratorio, realice un ataque de inyección SQL que haga que la aplicación muestre uno o más productos inéditos.
 
+---SOLUCIÓN---
 Lo que hay que hacer es modificar la query SQL del enlace para que nos muestre todos los productos de todas las categorias, esten o no disponibles.
 Por lo que la query quedaria así:     SELECT * FROM products WHERE category = '' or 1=1-- -' AND released = 1
 
